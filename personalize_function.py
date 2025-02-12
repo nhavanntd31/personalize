@@ -12,6 +12,10 @@ def convert_to_32bit_float(input_wav, output_wav):
     input_wav: 入力wavファイルのパス
     output_wav: 出力wavファイルのパス
   """
+  print(f"input_wav: {input_wav}")
+  print(f"output_wav: {output_wav}")
+  print(f"input_wav_type: {type(input_wav)}")
+  print(f"output_wav_type: {type(output_wav)}")
 
   try:
     fs, data = wavfile.read(input_wav)
