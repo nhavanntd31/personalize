@@ -25,7 +25,7 @@ def convert_to_32bit_float(input_wav, output_wav):
   print(f"input_wav_data_type: {input_wav.dtype}")
   print(f"output_wav_data_type: {output_wav.dtype}")
   print(f"input_wav_data_type: {input_wav.dtype}")
-  print(f"output_wav_data_type: {output_wav.dtype}")
+  print("hihihihihihi")
   
   try:
     fs, data = wavfile.read(input_wav)
